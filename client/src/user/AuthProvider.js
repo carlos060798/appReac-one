@@ -19,7 +19,7 @@ export default function AuthProvider({ children }) {
   //funciones que verifique  la creacion de usuario
 
   const loggin = (usercredencial, fromLocation) => {
-    setUser({ id: 1, role: roles.regular });
+    setUser({ id: 1, name:"carlos danilo angarita", email:"carlosdan@gmail.com",role: roles.regular });
     if (fromLocation) {
       history.push(fromLocation);
     }
